@@ -93,6 +93,7 @@ You will have to inject your attributes schema via di.xml.
 You will have to inject your attribute sets via di.xml.
 
 Here is an example:
+```xml
 <type name="SenzuLabs\AttributeManager\Model\Product\AttributeSetManager">
     <arguments>
         <argument name="attributeSets" xsi:type="array">
@@ -113,7 +114,8 @@ Here is an example:
             </item>
         </argument>
     </arguments>
-</type>```
+</type>
+```
 
 ## Commandline example
 
